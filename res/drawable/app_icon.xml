@@ -5,34 +5,37 @@
     android:viewportWidth="100"
     android:viewportHeight="100">
 
-    <!-- Chat Bubble -->
+    <!-- Gradient Background Circle -->
     <path
-        android:fillColor="#4CAF50"
-        android:pathData="M 10,20 Q 10,5 25,5 L 75,5 Q 90,5 90,20 L 90,60 Q 90,75 75,75 L 35,75 L 15,90 L 20,70 Q 10,65 10,50 Z" />
+        android:fillColor="#FF6D00"
+        android:pathData="M 50,5 A 45,45 0 1,1 49.9,5 Z" />
+
+    <path
+        android:fillColor="#F50057"
+        android:fillAlpha="0.5"
+        android:pathData="M 50,5 A 45,45 0 1,1 49.9,5 Z" />
+
+    <!-- Chat Bubble (WhatsApp-style) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 25,30 Q 20,30 20,40 L 20,60 Q 20,70 30,70 L 60,70 Q 70,70 70,60 L 70,40 Q 70,30 60,30 Z" />
 
     <!-- Message Lines -->
     <path
-        android:fillColor="#FFFFFF"
         android:strokeWidth="2"
-        android:strokeColor="#FFFFFF"
-        android:pathData="M 25,25 L 75,25" />
-    
-    <path
-        android:fillColor="#FFFFFF"
-        android:strokeWidth="2"
-        android:strokeColor="#FFFFFF"
-        android:pathData="M 25,35 L 75,35" />
-    
-    <path
-        android:fillColor="#FFFFFF"
-        android:strokeWidth="2"
-        android:strokeColor="#FFFFFF"
-        android:pathData="M 25,45 L 60,45" />
+        android:strokeColor="#1976D2"
+        android:strokeLineCap="round"
+        android:pathData="M 30,45 L 60,45" />
 
-    <!-- Gradient Effect for Chat Bubble -->
     <path
-        android:fillColor="#43A047"
-        android:pathData="M 10,20 Q 10,5 25,5 L 75,5 Q 90,5 90,20 L 90,60 Q 90,75 75,75 L 35,75 L 15,90 L 20,70 Q 10,65 10,50 Z"
-        android:fillAlpha="0.5" />
+        android:strokeWidth="2"
+        android:strokeColor="#1976D2"
+        android:strokeLineCap="round"
+        android:pathData="M 30,55 L 50,55" />
+
+    <!-- Paper Plane (Telegram-inspired) -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M 45,30 L 75,50 L 45,70 Z" />
 
 </vector>
