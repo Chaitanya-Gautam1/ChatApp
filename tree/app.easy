@@ -76,13 +76,13 @@
                                     "ref": {
                                         "_id_": 103,
                                         "_type": "String",
-                                        "value_": "@drawable\/settings"
+                                        "value_": "@drawable\/ic_settings"
                                     }
                                 },
                                 "title": {
                                     "_id_": 101,
                                     "_type": "String",
-                                    "value_": "ic_settings"
+                                    "value_": "Settings "
                                 },
                                 "showAsAction": {
                                     "_id_": 104,
