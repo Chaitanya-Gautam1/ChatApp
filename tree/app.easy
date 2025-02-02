@@ -82,7 +82,7 @@
                                 "title": {
                                     "_id_": 101,
                                     "_type": "String",
-                                    "value_": "Settings"
+                                    "value_": "ic_settings"
                                 },
                                 "showAsAction": {
                                     "_id_": 104,
