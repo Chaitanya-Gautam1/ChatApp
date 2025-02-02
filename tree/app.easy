@@ -593,12 +593,12 @@
         "label": {
             "_id_": 53,
             "_type": "String",
-            "value_": "chatapp"
+            "value_": "ChatApp"
         },
         "versionName": {
             "_id_": 19,
             "_type": "String",
-            "value_": "1.0"
+            "value_": "0.0.1"
         },
         "versionCode": {
             "_id_": 20,
@@ -612,12 +612,17 @@
         },
         "permissions": {
             "_id_": 23,
-            "_type": "App.Permissions"
+            "_type": "App.Permissions",
+            "CAMERA": {
+                "_id_": 439,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "packageName": {
             "_id_": 52,
             "_type": "String",
-            "value_": "com.aaappps.chatapp"
+            "value_": "com.apps.chatapp"
         }
     },
     "_abVer": 234
