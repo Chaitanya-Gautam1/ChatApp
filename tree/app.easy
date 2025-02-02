@@ -85,12 +85,27 @@
                                     "value_": "always"
                                 },
                                 "action": {
-                                    "_id_": 106,
-                                    "_type": "ShowToast",
-                                    "message": {
-                                        "_id_": 109,
+                                    "_id_": 379,
+                                    "_type": "Drawer.NativeMenu",
+                                    "id": {
+                                        "_id_": 387,
                                         "_type": "String",
-                                        "value_": "Settings clicked"
+                                        "value_": ""
+                                    },
+                                    "views": {
+                                        "_id_": 385,
+                                        "_type": "ViewList",
+                                        "list_": []
+                                    },
+                                    "menu": {
+                                        "_id_": 381,
+                                        "_type": "Menu",
+                                        "items": {
+                                            "_id_": 383,
+                                            "_type": "List",
+                                            "list_": [],
+                                            "elementType_": "Menu.Element"
+                                        }
                                     }
                                 },
                                 "id": {
