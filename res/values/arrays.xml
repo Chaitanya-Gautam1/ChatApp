@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ringtone Names and Values -->
+    <string-array name="ringtone_names">
+        <item>Default</item>
+        <item>Ringtone 1</item>
+        <item>Ringtone 2</item>
+        <item>Silent</item>
+    </string-array>
+    <string-array name="ringtone_values">
+        <item>default</item>
+        <item>ringtone1</item>
+        <item>ringtone2</item>
+        <item>silent</item>
+    </string-array>
+
+    <!-- Notification Priority Settings -->
+    <string-array name="priority_entries">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="priority_values">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+</resources>
