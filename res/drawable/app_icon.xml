@@ -1,7 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="100" android:viewportHeight="100">
-	<path android:fillColor="#f301a2" android:pathData="M 30,30 m -20,0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0"/>
-	<path android:fillColor="#2d1c7b" android:pathData="M 70,70 m -20,0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0"/>
-	<path android:fillColor="#80f3cb" android:pathData="M 30,70 m -20,0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0"/>
-	<path android:fillColor="#86cb05" android:pathData="M 70,30 m -20,0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0"/>
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M50,2A48,48 0 1,1 2,50A48,48 0 1,1 50,2Z" />
+
+    <!-- Chat Bubble -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,40 A20,15 0 0,1 75,40 A20,15 0 0,1 50,65 L35,75 L38,60 A20,15 0 0,1 25,40"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Message Dots -->
+    <circle
+        android:cx="40"
+        android:cy="40"
+        android:r="3"
+        android:fillColor="#2196F3" />
+
+    <circle
+        android:cx="50"
+        android:cy="40"
+        android:r="3"
+        android:fillColor="#2196F3" />
+
+    <circle
+        android:cx="60"
+        android:cy="40"
+        android:r="3"
+        android:fillColor="#2196F3" />
+
 </vector>
